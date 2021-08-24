@@ -1,0 +1,11 @@
+version: "2"
+
+services:
+  app:
+    build:
+      context: .
+    environment:
+      - URL
+    restart: unless-stopped
+    ports:
+      - 9290:5000
