@@ -19,7 +19,7 @@ $ pip install flask
 $ URL=http://x.x.x.x python app.py
 ```
 
-# Docker
+## Docker
 
 ```
 $ docker-compose up -d
